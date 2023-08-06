@@ -8,17 +8,18 @@ Script was created using commands from [the official tutorial](https://www.media
 ## Requirements
 
 - Debian-based OS that supports the newest mediawiki version.
-- Fixed 'user is not in sudoers file' error.
+- Fixed 'user is not in sudoers file' error.L
 
 ## Usage
 
-Start script, type your password and press Y sometimes while it's installing stuff.
+Start script, type your password and press Y sometimes while it's installing stuff. After running script go to http://localhost/mediawiki and configure project.
 
 ## Important notices
 
 - On database creating and configuring stage (starts when message 'Setup Database' appears) you have to enter commands and blank password by yourself (comands can be found in 'Additional Commands' section)
 - If using raspberry pi os you have to add command 'sudo mysqld_safe --skip-grant-tables --skip-networking &' before line 11.
 - You have to change PHP configuration file ( In line 'upload_max_filesize = 2M' set '2M' to '20M') by yourself when nano appears.
+- You have to do command 'sudo mv ~/Downloads/LocalSettings.php /var/lib/mediawiki/' in the dir where you save LocalSettings.php.
 
 ## Additional Commands
 
