@@ -8,7 +8,7 @@ Script was created using commands from [the official tutorial](https://www.media
 ## Requirements
 
 - Debian-based OS that supports the newest mediawiki version.
-- Fixed 'user is not in sudoers file' error.L
+- Fixed 'user is not in sudoers file' error.
 
 ## Usage
 
