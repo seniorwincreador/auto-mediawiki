@@ -3,7 +3,7 @@ sudo apt-get install apache2 mariadb-server php php-mysql libapache2-mod-php php
 sudo apt-get install imagemagick php-curl php-bcmath php-apcu
 sudo service apache2 reload
 cd /tmp/
-wget https://releases.wikimedia.org/mediawiki/1.40/mediawiki-1.40.0.tar.gz
+wget https://releases.wikimedia.org/mediawiki/1.40/mediawiki-1.40.1.tar.gz
 tar -xvzf /tmp/mediawiki-*.tar.gz
 sudo mkdir /var/lib/mediawiki
 sudo mv mediawiki-*/* /var/lib/mediawiki
